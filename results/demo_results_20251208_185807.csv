@@ -1,0 +1,3 @@
+Method,Clean Acc (%),Robust Acc (%),Time (h)
+Vanilla,20.40,16.36,0.008
+Adversarial Training,18.57,18.93,0.012

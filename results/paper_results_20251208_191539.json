@@ -1,0 +1,23 @@
+{
+  "experiment_date": "2025-12-08 19:15:39",
+  "dataset": "TF-Flowers (REAL)",
+  "total_samples": 3670,
+  "train_samples": 2569,
+  "test_samples": 550,
+  "num_classes": 5,
+  "attack": "FGSM (\u03b5=8/255)",
+  "vanilla": {
+    "clean_accuracy": 59.09,
+    "robust_accuracy": 4.73,
+    "training_time_hours": 0.063
+  },
+  "adversarial_training": {
+    "clean_accuracy": 49.27,
+    "robust_accuracy": 34.55,
+    "training_time_hours": 0.121
+  },
+  "comparison": {
+    "robustness_gain_percentage_points": 29.82,
+    "clean_accuracy_retention_percent": 83.38
+  }
+}

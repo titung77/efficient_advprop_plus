@@ -1,0 +1,41 @@
+{
+  "dataset_info": {
+    "name": "TF-Flowers",
+    "source": "https://www.tensorflow.org/datasets/catalog/tf_flowers",
+    "total_samples": 3670,
+    "num_classes": 5,
+    "classes": [
+      "daisy",
+      "dandelion",
+      "roses",
+      "sunflowers",
+      "tulips"
+    ]
+  },
+  "configuration": {
+    "num_epochs": 3,
+    "batch_size": 32,
+    "learning_rate": 0.0003,
+    "image_size": 224,
+    "train_size": 2569,
+    "test_size": 550
+  },
+  "timestamp": "2025-12-08 18:58:07",
+  "results": {
+    "vanilla": {
+      "clean_accuracy": 20.4,
+      "robust_accuracy": 16.36,
+      "training_time_hours": 0.008
+    },
+    "adversarial_training": {
+      "clean_accuracy": 18.57,
+      "robust_accuracy": 18.93,
+      "training_time_hours": 0.012
+    }
+  },
+  "improvements": {
+    "robust_gain": 2.57,
+    "clean_cost": 1.83
+  },
+  "note": "These are demonstration results. For real experiments, use actual TF-Flowers images."
+}

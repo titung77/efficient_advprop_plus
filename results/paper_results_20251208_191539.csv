@@ -1,0 +1,3 @@
+Method,Clean_Accuracy,Robust_Accuracy,Training_Time_Hours
+Vanilla,59.09,4.73,0.063
+Adversarial_Training,49.27,34.55,0.121
