@@ -1,0 +1,18 @@
+# Requirements for Efficient AdvProp+ Research
+torch>=1.12.0
+torchvision>=0.13.0
+timm>=0.6.12
+tensorflow>=2.10.0
+tensorflow-datasets>=4.7.0
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.1.0
+tqdm>=4.64.0
+Pillow>=9.0.0
+tensorboard>=2.10.0
+foolbox>=3.3.1
+torchattacks>=3.4.0
+psutil>=5.8.0
+# autoattack is installed via git: pip install git+https://github.com/fra31/auto-attack
